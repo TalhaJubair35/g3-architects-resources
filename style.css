@@ -224,3 +224,50 @@ main {
 }
 
 /* banner section end  */
+/* features section  */
+.features-section {
+    width: 80%;
+    margin: 85px auto 130px auto;
+    
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+ .images {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 50px;
+    
+}
+.images img {
+    width: 120%;
+    height: auto;
+    border-radius: 20px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.features h1 {
+    width: 80%;
+    font-size: 45px;
+    color: #727272;
+    font-weight: 900;
+}
+.features h1 :nth-child(1) {
+    color: #131313;
+}
+.features h1 :nth-child(2) {
+    color: #FF900E;
+}
+.features p {
+    font-size: 18px;
+    color: #727272;
+    width: 80%;
+}
+
+
+
